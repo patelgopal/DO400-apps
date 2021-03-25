@@ -3,6 +3,13 @@ pipeline {
         label 'nodejs'
     }
     stages {
+        stage ('Versions') {
+            steps {
+                dir ('exchange-cli') {
+                    sh "npm version"
+                }
+            }
+        }
         stage ('Install Dependencies') {
             steps {
                 dir ('exchange-cli') {
