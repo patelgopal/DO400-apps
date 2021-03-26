@@ -3,6 +3,7 @@ package com.redhat.shopping.integration.blackbox;
 import com.redhat.shopping.cart.AddToCartCommand;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

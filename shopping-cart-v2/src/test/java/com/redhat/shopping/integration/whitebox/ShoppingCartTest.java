@@ -4,6 +4,7 @@ import com.redhat.shopping.cart.CartService;
 import com.redhat.shopping.catalog.ProductNotFoundInCatalogException;
 import io.quarkus.test.junit.QuarkusTest;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 
