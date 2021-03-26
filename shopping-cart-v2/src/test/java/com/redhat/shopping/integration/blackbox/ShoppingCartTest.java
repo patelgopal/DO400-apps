@@ -1,9 +1,12 @@
 package com.redhat.shopping.integration.blackbox;
 
 import com.redhat.shopping.cart.AddToCartCommand;
+import com.redhat.shopping.catalog.*;
 import io.quarkus.test.junit.QuarkusTest;
+import io.quarkus.test.junit.QuarkusMock;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
+import org.mockito.Mockito;
 import org.junit.jupiter.api.Tag;
 import org.junit.jupiter.api.Test;
 

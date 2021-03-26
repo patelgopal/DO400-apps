@@ -2,7 +2,10 @@ package com.redhat.shopping.integration.whitebox;
 
 import com.redhat.shopping.cart.CartService;
 import com.redhat.shopping.catalog.ProductNotFoundInCatalogException;
+import com.redhat.shopping.catalog.*;
+import org.mockito.Mockito;
 import io.quarkus.test.junit.QuarkusTest;
+import io.quarkus.test.junit.QuarkusMock;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.Tag;
