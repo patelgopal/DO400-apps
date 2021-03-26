@@ -1,14 +1,14 @@
 pipeline {
     agent { label 'nodejs' }
 
-    // Set your OCP project
-    environment { APP_NAMESPACE = '...' }
+    environment { APP_NAMESPACE = 'greeting-cd-pipeline' }
 
     stages{
-
         stage('Test'){
             steps {
-                sh "node test.js"
+                dir(APP_NAMESPACE) {
+                  sh "node test.js"
+                }
             }
         }
 
