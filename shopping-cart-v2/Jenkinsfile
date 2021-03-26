@@ -47,12 +47,12 @@ pipeline {
                             TAG_TO_DEPLOY = params.DEPLOY_TAG
                         }
 
-                        sh '''
+                        sh """
                             ./scripts/deploy-image.sh \
                             -u $QUAY_USR \
                             -n $APP_NAMESPACE \
                             -t $TAG_TO_DEPLOY
-                        '''
+                        """
                     }
                 }
             }
