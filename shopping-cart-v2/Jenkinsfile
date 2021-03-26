@@ -50,7 +50,7 @@ pipeline {
 
                     sh '''
                         ./scripts/deploy-image.sh \
-                        -u $QUAY_USER \
+                        -u $QUAY_USR \
                         -n $APP_NAMESPACE \
                         -t $TAG_TO_DEPLOY
                     '''
