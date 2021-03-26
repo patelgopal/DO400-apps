@@ -49,7 +49,7 @@ pipeline {
                     }
 
                     sh '''
-                        ./scripts/redeploy.sh \
+                        ./scripts/deploy-image.sh \
                         -u $QUAY_USER \
                         -n $APP_NAMESPACE \
                         -t $TAG_TO_DEPLOY
