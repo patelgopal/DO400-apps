@@ -2,6 +2,7 @@ package com.redhat.shopping.integration.blackbox;
 
 import com.redhat.shopping.cart.AddToCartCommand;
 import com.redhat.shopping.catalog.*;
+import com.redhat.shopping.catalog.persistence.*;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.QuarkusMock;
 import org.junit.jupiter.api.BeforeEach;

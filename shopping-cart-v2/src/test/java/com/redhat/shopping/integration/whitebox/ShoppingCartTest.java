@@ -3,6 +3,7 @@ package com.redhat.shopping.integration.whitebox;
 import com.redhat.shopping.cart.CartService;
 import com.redhat.shopping.catalog.ProductNotFoundInCatalogException;
 import com.redhat.shopping.catalog.*;
+import com.redhat.shopping.catalog.persistence.*;
 import org.mockito.Mockito;
 import io.quarkus.test.junit.QuarkusTest;
 import io.quarkus.test.junit.QuarkusMock;
