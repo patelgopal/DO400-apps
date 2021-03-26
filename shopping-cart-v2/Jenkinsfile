@@ -50,8 +50,8 @@ pipeline {
 
                     sh '''
                         ./scripts/redeploy.sh \
-                        -u $QUAY_USER
-                        -n $APP_NAMESPACE
+                        -u $QUAY_USER \
+                        -n $APP_NAMESPACE \
                         -t $TAG_TO_DEPLOY
                     '''
                 }
